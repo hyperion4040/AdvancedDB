@@ -6,4 +6,5 @@ declare
  begin
  DBMS_OUTPUT.PUT_LINE(message);
  DBMS_OUTPUT.put_line(name);
+ DBMS_OUTPUT.PUT_LINE('My name is ' || name);
  END; 
