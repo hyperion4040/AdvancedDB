@@ -1,1 +1,6 @@
 This is advanced DB repo for laboratory
+
+Now it contains a bash script which create docker containcer of oracle db and destroy if needed.
+docker.sh <- create container
+docker.sh kill <- kill and remove container
+
