@@ -2,5 +2,28 @@ This is advanced DB repo for laboratory
 
 Now it contains a bash script which create docker containcer of oracle db and destroy if needed.
 docker.sh <- create container
-docker.sh kill <- kill and remove container
+docker.sh kill <- stop and remove container
 
+
+DML Data Manipulation Language
+1. Tworzenie zapytań SELECT
+2. Sortowanie wyników ORDER BY
+3. Funkcje agregujące (SUM, AVG, MIN, MAX, COUNT)
+4. Złączenie table JOIN
+5. Modyfikacja danych UPDATE
+6. Wstawianie danych INSERT
+7. Usuwanie danych DELETE
+
+
+DDL Data Definition Language
+1. Tworzenie struktur CREATE
+2. Modyfikowanie struktur ALTER
+3. Usuwanie struktr DROP 
+
+DCL Data Control Language
+1. Nadawanie uprawnień GRANT 
+2. Usuwanie uprawnień REVOKE
+
+
+primary key posiada właściwości unique oraz not null.
+klucz główny może być naturalny lub sztuczny.
