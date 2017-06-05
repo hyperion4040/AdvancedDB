@@ -6,8 +6,9 @@ DECLARE
   student Osoba;
   imie student.imie%TYPE;
 BEGIN
-  student.imie := 'Adrian';
-  student.nazwisko := 'Koziol';
-
-  DBMS_OUTPUT.PUT_LINE(student.imie);
+    student.imie := 'Adrian';
+    student.nazwisko := 'Koziol';
+    student.imie := 'Adi';
+   student.nazwisko := 'Kozlowski';
+    DBMS_OUTPUT.PUT_LINE(student.imie);
 END;
