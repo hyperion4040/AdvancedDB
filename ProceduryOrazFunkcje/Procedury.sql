@@ -13,6 +13,8 @@ dodajOsobę (numer in int, name in varchar2 , surname in varchar2 ) IS
 BEGIN
   dodajOsobę(1, 'Adrina','Kozlowski');
   dodajOsobę(2,'Adam','Kozioł');
+  dodajOsobę(3,'Piotr','Marczik');
+
 END;
 
 

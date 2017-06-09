@@ -9,8 +9,8 @@ CREATE OR REPLACE FUNCTION WyświetlOsobę
     RETURN dane_osoby;
   END;
 
--- SELECT WyświetlOsobę(2) FROM DUAL;
+SELECT WyświetlOsobę(3) FROM DUAL;
 
-BEGIN
-  DBMS_OUTPUT.PUT_LINE(WyświetlOsobę(1));
-END;
+-- BEGIN
+--   WyświetlOsobę(2);
+-- END;
