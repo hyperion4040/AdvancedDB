@@ -1,0 +1,8 @@
+CREATE TABLE Studenciki
+(
+  numer NUMBER PRIMARY KEY,
+  imie VARCHAR2(20),
+  nazwisko VARCHAR2(50)
+);
+
+DROP TABLE STUDENCIKI
